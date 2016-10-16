@@ -2,30 +2,26 @@
 
 pode ser encontrado em http://www.optikey.org
 
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
-
 - [OptiKey - Full computer control and speech with your eyes](#optikey-full-computer-control-and-speech-with-your-eyes)
-	- [Descrição](#descrio)
+	- [Descrição](#descrição)
 	- [Principais Features](#principais-features)
 		- [Compatibilidade](#compatibilidade)
 			- [Idiomas](#idiomas)
-			- [Dispositivos compatíveis](#dispositivos-compatveis)
-	- [Linguagem de programação](#linguagem-de-programao)
+			- [Dispositivos compatíveis](#dispositivos-compatíveis)
+	- [Linguagem de programação](#linguagem-de-programação)
 	- [Principais desenvolvedores](#principais-desenvolvedores)
-	- [Evolução do sistema](#evoluo-do-sistema)
+	- [Evolução do sistema](#evolução-do-sistema)
 	- [Arquitetura](#arquitetura)
 		- [Bibliotecas externas](#bibliotecas-externas)
-	- [Contribuições](#contribuies)
-	- [Principais padrões de projeto](#principais-padres-de-projeto)
+	- [Contribuições](#contribuições)
+	- [Principais padrões de projeto](#principais-padrões-de-projeto)
 		- [MVVM](#mvvm)
 		- [Observers e Data Binding](#observers-e-data-binding)
-	- [Módulos do sistema](#mdulos-do-sistema)
-		- [Os pacotes disponíveis no repositório do sistema](#os-pacotes-disponveis-no-repositrio-do-sistema)
-		- [Dependência entre módulos](#dependncia-entre-mdulos)
-		- [Descrição dos módulos e sua divisão em diretórios](#descrio-dos-mdulos-e-sua-diviso-em-diretrios)
-	- [Conclusão](#concluso)
-
-<!-- /TOC -->
+	- [Módulos do sistema](#módulos-do-sistema)
+		- [Os pacotes disponíveis no repositório do sistema](#os-pacotes-disponíveis-no-repositório-do-sistema)
+		- [Dependência entre módulos](#dependência-entre-módulos)
+		- [Descrição dos módulos e sua divisão em diretórios](#descrição-dos-módulos-e-sua-divisão-em-diretórios)
+	- [Conclusão](#conclusão)
 
 ##  Descrição
 
