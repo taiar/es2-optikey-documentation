@@ -258,7 +258,7 @@ A biblioteca WPF (Windows Presentation Foundation), já descrita nas sessões an
 
 A WPF fornece diversos modos de Data Binding. Com o one-way data binding, os controles de interface de usuários podem ser atualizados ao serem conectados com uma classe de ViewModel de forma que a interface reflita os valores de dados específicos quando estes mudarem (e a visualização for renderizada). O two-way data binding (vinculação de dados de duas vias), fará com que as classes de ViewModels sejam atualizadas de acordo com modificações na interface do usuário. Talvez a interação mais simples de ser visualizada seja essa entre Views e suas ViewModels (o que não significa que não ocorra em outros contextos).
 
-Todas essas formas de vincular os dados às ações é implementado utilizando-se Observers. Na linguagem C#, as implementações de observers se concentram na interface INotifyPropertyChanged e mais informações podem ser vistas aqui: https://msdn.microsoft.com/en-us/library/ms752914.aspx
+Todas essas formas de vincular os dados às ações é implementado utilizando-se Observers. Na linguagem C#, as implementações de observers se concentram na interface `INotifyPropertyChanged` e mais informações podem ser vistas aqui: https://msdn.microsoft.com/en-us/library/ms752914.aspx
 
 ## Módulos do sistema
 
@@ -266,9 +266,9 @@ Todas essas formas de vincular os dados às ações é implementado utilizando-s
 
 No diretório principal do código do projeto, src, encontramos 3 pacotes:
 
-- JuliusSweetland.OptiKey.AutoCompletePerformance
-- JuliusSweetland.OptiKey.UnitTests
-- JuliusSweetland.OptiKey
+- `JuliusSweetland.OptiKey.AutoCompletePerformance`
+- `JuliusSweetland.OptiKey.UnitTests`
+- `JuliusSweetland.OptiKey`
 
 Os dois primeiros, são testes automatizados do sistema e o último, a implementação do sistema em si. No stack do Microsoft Visual Studio, os pacotes são separados como Soluções diferentes e as soluções podem ser compiladas e distribuídas independentemente.
 
