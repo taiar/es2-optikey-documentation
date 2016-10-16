@@ -2,9 +2,11 @@
 
 pode ser encontrado em http://www.optikey.org
 
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
 - [OptiKey - Full computer control and speech with your eyes](#optikey-full-computer-control-and-speech-with-your-eyes)
-	- [1. <a name='Descrio-0'></a>Descrição](#1-a-namedescrio-0adescrio)
-	- [2. <a name='PrincipaisFeatures-1'></a>Principais Features](#2-a-nameprincipaisfeatures-1aprincipais-features)
+	- [Descrição](#descrio)
+	- [Principais Features](#principais-features)
 		- [Compatibilidade](#compatibilidade)
 			- [Idiomas](#idiomas)
 			- [Dispositivos compatíveis](#dispositivos-compatveis)
@@ -23,7 +25,9 @@ pode ser encontrado em http://www.optikey.org
 		- [Descrição dos módulos e sua divisão em diretórios](#descrio-dos-mdulos-e-sua-diviso-em-diretrios)
 	- [Conclusão](#concluso)
 
-##  1. <a name='Descrio-0'></a>Descrição
+<!-- /TOC -->
+
+##  Descrição
 
 O sistema OptiKey é um teclado virtual assistivo. Ele foi projetado para ser
 utilizado com um dispositivo de rastreamento ocular de baixo custo, com o
@@ -44,7 +48,7 @@ o sistema é de código aberto, livre e gratuito.
 
 Funcionamento utilizando o Rastreamento ocular
 
-##  2. <a name='PrincipaisFeatures-1'></a>Principais Features
+##  Principais Features
 
 Com o OptiKey é possível realizar todos os comandos que um teclado normal
 realiza. Pode ser usado como uma alternativa ao teclado físico, e utilizado para
