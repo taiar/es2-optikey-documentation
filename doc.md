@@ -40,7 +40,7 @@ relação aos produtos extremamente caros, difíceis de usar e pouco confiáveis
 que existem no mercado de comunicação aumentativa e alternativa (CAA). Por isso
 o sistema é de código aberto, livre e gratuito.
 
-![Funcionamento utilizando o Rastreamento ocular](images/image01.png)
+![Funcionamento utilizando o Rastreamento ocular](images/image02.png)
 
 Funcionamento utilizando o Rastreamento ocular
 
@@ -57,7 +57,7 @@ colocar letras maiúsculas para aumentar a velocidade de digitação. Existem
 recursos de autocompletar palavras assim como nos aparelhos celulares atuais.
 
 
-![Utilização do OptiKey num editor de texto](images/image02.png)
+![Utilização do OptiKey num editor de texto](images/image11.png)
 
 Utilização do OptiKey num editor de texto
 
@@ -73,7 +73,7 @@ Funcionalidades e menu do teclado
 OptiKey pode ser utilizado para substituir o mouse, permitindo clicar, rolar e
 arrastar com precisão em qualquer lugar na tela.
 
-![Utilização do OptiKey como um mouse](images/image04.png)
+![Utilização do OptiKey como um mouse](images/image06.png)
 
 Utilização do OptiKey como um mouse
 
