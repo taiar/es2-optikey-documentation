@@ -136,7 +136,7 @@ específica de domínio XAML.
 
 ## Principais desenvolvedores
 
-O sistema foi desenvolvido principalmente por Julius Sweetland sozinho. Do
+O sistema foi desenvolvido principalmente por Julius Sweetland. Do
 início do projeto em julho de 2013) até agosto de 2015, apenas o Julius tinha
 contribuído para o projeto. Após esse período alguns outros programadores
 contribuíram com o desenvolvimento com algumas poucas entregas.
@@ -145,6 +145,25 @@ Como a ideia do sistema é que ele fosse utilizado no mundo todo, ele está send
 adaptado para reconhecer a maior quantidade de idiomas possíveis. E para isso o
 desenvolvedor Julius frequentemente solicita ajuda para incluir algum novo
 idioma, com ajuda de contribuidores do mundo todo.
+
+A seguir temos uma tabela que mostra alguns dos principais desenvolvedores que contribuiram com o projeto. A maioria dessas contribuições são relacionadas à inclusão de novos idiomas e ajustes referentes aos teclados dos mesmos.
+
+Nome|Usuário|Principais contribuições|Commits
+---------|------|--------------------------|-----------------
+|Julius Sweetland|JuliusSweetland	|Criador do sistema e principal desenvolvedor| 1.510
+|Dan Padmore|danpadmore|Inclusões e aprimoramentos de algumas classes |14
+|Samuel Haddad|SamPlusPlus|Criação de testes variados|13
+|Stephan Meyer|ninehundred1|Inclusão do suporte ao idioma Alemão e pequenos ajustes no teclado|13
+|Peter Morlion|petermorlion|Inclusão e ajustes do idioma Holandês e Belga|11
+|Não informado|Ar2rZ|Ajustes relacionados ao idioma Russo e inclusão do teclado Russo|9
+|Peter Øvergård Clausen|PeterOeClausen|Inclusão do teclado Dinamarquês e ajustes no suporte ao idioma|9
+|Não informado|andylamp|Inclusão e ajustes do idioma Grego|8
+|Lee Campbell|LeeCampbell|Ajustes em algumas estruturas de dados do sistema|8
+|Damien Simonin Feugas|feugy|Inclusão do suporte ao idioma Francês|7
+|Não informado|A01221624|Pequenos ajustes relacionado ao idioma Espanhol|6
+|Vedran Đerek|vdjerek|Inclusão do suporte ao idioma Croata|4
+|Dustin Gadal|Gadal|Inclusão do dicionário Francês|2
+
 
 ## Evolução do sistema
 
