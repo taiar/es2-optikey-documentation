@@ -33,7 +33,7 @@ do Neurônio Motor (DNM) e ELA (Esclerose Lateral Amiotrófica).
 
 ![Tela mostrando o teclado virtual](images/image00.png)
 
-Tela mostrando o teclado virtual
+_Tela mostrando o teclado virtual_
 
 O OptiKey foi desenvolvido com o objetivo de ser uma alternativa mais barata em
 relação aos produtos extremamente caros, difíceis de usar e pouco confiáveis
@@ -42,7 +42,7 @@ o sistema é de código aberto, livre e gratuito.
 
 ![Funcionamento utilizando o Rastreamento ocular](images/image02.png)
 
-Funcionamento utilizando o Rastreamento ocular
+_Funcionamento utilizando o Rastreamento ocular_
 
 ##  Principais Features
 
@@ -59,7 +59,7 @@ recursos de autocompletar palavras assim como nos aparelhos celulares atuais.
 
 ![Utilização do OptiKey num editor de texto](images/image11.png)
 
-Utilização do OptiKey num editor de texto
+_Utilização do OptiKey num editor de texto_
 
 Além das teclas já existentes em um teclado comum, o OptiKey vem acompanhado de
 teclas que proporcionam outras funcionalidades: um teclado para letras com
@@ -69,14 +69,14 @@ a padronização.
 
 ![Funcionalidades e menu do teclado](images/image03.png)
 
-Funcionalidades e menu do teclado
+_Funcionalidades e menu do teclado_
 
 OptiKey pode ser utilizado para substituir o mouse, permitindo clicar, rolar e
 arrastar com precisão em qualquer lugar na tela.
 
 ![Utilização do OptiKey como um mouse](images/image06.png)
 
-Utilização do OptiKey como um mouse
+_Utilização do OptiKey como um mouse_
 
 ### Compatibilidade
 
@@ -187,7 +187,7 @@ O processo da arquitetura de software objetiva conceber uma visão da organizaç
 
 ![Visão do contexto](images/image10.png)
 
-Visão do contexto
+_Visão do contexto_
 
 O OptiKey foi desenvolvido em C# na IDE Visual Studio da Microsoft e  maior parte das bibliotecas utilizadas são nativas do C#. Para rodar a aplicação é necessário utilizar um PC ou tablet que possua o .NET 4.6 framework ou superior, o qual está disponível nativamente a partir do Windows Vista.
 
@@ -195,7 +195,7 @@ O .NET framework é uma tecnologia que dá suporte à compilação e à execuç�
 
 ![Ambiente de desenvolvimento](images/image04.png)
 
-Ambiente de desenvolvimento
+_Ambiente de desenvolvimento_
 
 O Windows Presentation Foundation (WPF) é uma estrutura que promove uma interface gráfica para criação de aplicativos desktop. A plataforma de desenvolvimento do WPF oferece suporte a um amplo conjunto de recursos de desenvolvimento de aplicativos, incluindo modelos, recursos, controles, elementos gráficos, layout, associação de dados, documentos e segurança. É um subconjunto do .NET Framework. O WPF usa o XAML (Extensible Application Markup Language) para fornecer um modelo declarativo para o desenvolvimento da aplicação.
 
@@ -205,7 +205,7 @@ O OptiKey suporta alguns EyeTrackers e para isso utiliza bibliotecas específica
 
 ![Bibliotecas utilizadas para suporte aos eye trackers](images/image08.png)
 
-Bibliotecas utilizadas para suporte aos eye trackers
+_Bibliotecas utilizadas para suporte aos eye trackers_
 
 Outra biblioteca utilizada na aplicação é a log4net da Apache, compatível com o .NET Framework, que permite a declaração de registros de logs em diversos destinos de saída.
 
@@ -240,13 +240,13 @@ A maior parte da aplicação foi desenvolvida por Julius Sweetland que é o idea
 
 ![Ranking de contribuições dos desenvolvedores do OptiKey](images/image01.png)
 
-Ranking de contribuições dos desenvolvedores do OptiKey
+_Ranking de contribuições dos desenvolvedores do OptiKey_
 
 Já a inclusão de novos idiomas, é feita com grande ajuda de usuários de diferentes partes do mundo. Para cada idioma que vai ser incluído, o desenvolvedor cria um novo tópico pedindo ajuda de colaboradores para verificação de particularidades de cada língua e também do dicionário utilizado como referência.
 
 ![Contribuições em progresso de usuários](images/image09.png)
 
-Contribuições em progresso de usuários
+_Contribuições em progresso de usuários_
 
 ## Principais padrões de projeto
 
@@ -268,7 +268,7 @@ Esta biblioteca tem funcionalidades que ajudam a implementar o padrão em aplica
 
 ![Esquema de funcionamento do MVVM](images/image05.png)
 
-Esquema de funcionamento do MVVM
+_Esquema de funcionamento do MVVM_
 
 ### Observers e Data Binding
 
@@ -300,7 +300,7 @@ Este é um diagrama de dependência entre os **principais** módulos do sistema:
 
 ![Diagrama com os principais módulos do sistema](images/image07.png)
 
-Diagrama com os principais módulos do sistema
+_Diagrama com os principais módulos do sistema_
 
 ### Descrição dos módulos e sua divisão em diretórios
 
