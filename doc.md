@@ -61,10 +61,11 @@ recursos de autocompletar palavras assim como nos aparelhos celulares atuais.
 
 Utilização do OptiKey num editor de texto
 
-Além das teclas do alfabeto comum, existem outras funcionalidades como um
-teclado para letras com acento, símbolos de várias moedas, números e símbolos
-matemáticos. Para cada idioma, o teclado virtual tem seu leiaute conforme a
-padronização.
+Além das teclas já existentes em um teclado comum, o OptiKey vem acompanhado de
+teclas que proporcionam outras funcionalidades: um teclado para letras com
+acento, símbolos de várias moedas, números e símbolos matemáticos. Para cada
+idioma suportado o teclado virtual adapta automaticamente o seu leiaute conforme
+a padronização.
 
 ![Funcionalidades e menu do teclado](images/image03.png)
 
