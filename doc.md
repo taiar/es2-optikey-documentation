@@ -363,6 +363,23 @@ Todas essas formas de vincular os dados às ações é implementado utilizando-s
 
 ### Programação reativa
 
+O "Manifesto Reativo" foi publicado em 16 de Setembro de 2014. Ele prega uma nova maneira na qual as organizações iriam se beneficiar bastante em questão
+de robustez, resiliência, flexibilidade e escalabilidade ao lidar com desenvolvimento de software. Vou transcrever alguns trechos deste manifesto pois são
+mais sintéticos e objetivos que qualquer outro:
+
+> Sistemas criados como Reativos são muito mais flexíveis, desacoplados e escaláveis. Isso os torna mais fáceis de desenvolver e manter. São mais tolerantes a falhas e quando elas ocorrem são tratadas com elegância ao invés de desastre. Sistemas Reativos são responsivos, dando aos usuários feedbacks mais interativos.
+>
+> Sistemas reativos são:
+> Responsivo: O sistema responde em um tempo hábil se possível. ...
+> Resiliente: O sistema continua respondendo em caso de falha. ...
+> Elástico: O sistema continua responsivo mesmo sob variações de demanda. ...
+> Orientado a Mensagens: Sistemas Reativos usam passagem de mensagens assíncronas para estabelecer fronteiras entre os componentes e garantir baixo acoplamento, isolamento, transparência na localização e provêem meios para delegar o tratamento de erros através de mensagens. ...
+> Grandes sistemas são compostos por pequenos serviços e portanto, dependem das propriedades Reativas de cada um deles. Isso significa que Sistemas Reativos usam principios de projeto para que essas propriedades se apliquem em todos os níveis e escalas, tornando-os combináveis. Os maiores sistemas do mundo são arquitetados com base nessas propriedades e servem as necessidades de bilhões de pessoas diariamente. 
+
+![Princípios da programação reativa](images/image12.svg)
+
+_Princípios da programação reativa_
+
 ## Módulos do sistema
 
 ### Os pacotes disponíveis no repositório do sistema
@@ -418,3 +435,4 @@ Por se tratar de uma aplicação simples e que utiliza uma diversidade relativam
 ## Referências
 - http://reactivex.io/
 - https://github.com/Reactive-Extensions/Rx.NET
+- http://www.reactivemanifesto.org/pt-BR
