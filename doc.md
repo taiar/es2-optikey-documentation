@@ -2,27 +2,6 @@
 
 pode ser encontrado em http://www.optikey.org
 
-- [OptiKey - Full computer control and speech with your eyes](#optikey-full-computer-control-and-speech-with-your-eyes)
-	- [Descrição](#descrição)
-	- [Principais Features](#principais-features)
-		- [Compatibilidade](#compatibilidade)
-			- [Idiomas](#idiomas)
-			- [Dispositivos compatíveis](#dispositivos-compatíveis)
-	- [Linguagem de programação](#linguagem-de-programação)
-	- [Principais desenvolvedores](#principais-desenvolvedores)
-	- [Contribuições](#contribuições)
-	- [Evolução do sistema](#evolução-do-sistema)
-	- [Arquitetura](#arquitetura)
-		- [Bibliotecas externas](#bibliotecas-externas)
-	- [Principais padrões de projeto](#principais-padrões-de-projeto)
-		- [MVVM](#mvvm)
-		- [Observers e Data Binding](#observers-e-data-binding)
-	- [Módulos do sistema](#módulos-do-sistema)
-		- [Os pacotes disponíveis no repositório do sistema](#os-pacotes-disponíveis-no-repositório-do-sistema)
-		- [Dependência entre módulos](#dependência-entre-módulos)
-		- [Descrição dos módulos e sua divisão em diretórios](#descrição-dos-módulos-e-sua-divisão-em-diretórios)
-	- [Conclusão](#conclusão)
-
 ##  Descrição
 
 O sistema OptiKey é um software que implementa um teclado virtual assistivo.
