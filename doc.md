@@ -44,6 +44,8 @@ o sistema é de código aberto, livre e gratuito.
 
 Funcionamento utilizando o Rastreamento ocular
 
+O sistema vem sendo conhecido no mundo e sendo indicado por instituições que trabalham com pessoas com deficiência, como Fundación de Neurociencias(Espanhol), ALS Worldwide(Inglês), kommhelp(Alemão), entre outras.
+
 ##  Principais Features
 
 Com o OptiKey é possível realizar todos os comandos que um teclado normal
@@ -93,6 +95,8 @@ O sistema funciona atualmente com os seguintes idiomas:
 - Espanhol
 - Croata
 - Italiano
+- Esloveno
+- Dinamarquês
 
 #### Dispositivos compatíveis
 
@@ -108,6 +112,7 @@ Opções de baixo custo:
 - Steelseries Sentry Eye Tracker
 - TheEyeTribe
 - ITU GazeTracker
+- myGaze Eye Tracker
 
 Outras opções:
 
@@ -146,7 +151,7 @@ adaptado para reconhecer a maior quantidade de idiomas possíveis. E para isso o
 desenvolvedor Julius frequentemente solicita ajuda para incluir algum novo
 idioma, com ajuda de contribuidores do mundo todo.
 
-A seguir temos uma tabela que mostra alguns dos principais desenvolvedores que contribuiram com o projeto. A maioria dessas contribuições são relacionadas à inclusão de novos idiomas e ajustes referentes aos teclados dos mesmos.
+A seguir temos uma tabela que mostra os principais desenvolvedores que contribuiram com o projeto. A maioria dessas contribuições são relacionadas à inclusão de novos idiomas e ajustes referentes aos teclados dos mesmos.
 
 Nome|Usuário|Principais contribuições|Commits
 ---------|------|--------------------------|-----------------
@@ -169,16 +174,24 @@ Nome|Usuário|Principais contribuições|Commits
 
 Seguem abaixo os principais releases e algumas novidades de cada versão.
 
-| Versão | Features / Fixes |
+| Versão | Novidades / Correções |
 |--------|-------------|
 | 1.0.0 | - Versão inicial |
 | 1.1.0 | - Incluído controle do mouse <br> - Melhorias no código fonte |
 | 1.2.0 | - Aumentada quantidade de sugestões de palavras ao escrever <br> - Corrigido bug que travava ao utilizar o recurso de autocompletar <br> - Melhorado o código fonte de ações do mouse |
-| 2.0.0 | -Várias novas funcionalidades <br> - Algumas mudanças no design <br> -  Correção de bugs |
-|2.1.0 | - Incluído suporte para o idioma Francês(primeiro idioma além do inglês).  <br> - Correção de bugs |
-| 2.2.0 | - Incluído suporte para o idioma Alemão. Incluído teclados específicos para os novos idiomas  <br> - Correção de bugs |
-| 2.3.0 | Recurso de autocompletar as palavras agora aceita palavras escritas erradas |
-|2.3.5 | Versão atual. Incluído suporte para o idioma Italiano |
+| 2.0.0 | - Várias novas funcionalidades <br> - Mudanças na interface com melhorias na acessibilidade <br> -  Correção de bugs |
+| 2.1.0 | - Incluído suporte para o idioma Francês(primeiro idioma além do inglês).  <br> - Correção de bugs |
+| 2.2.0 | - Incluído suporte para o idioma Alemão <br> - Incluído teclados específicos para os novos idiomas  <br> - Correção de bugs |
+| 2.2.2 | - Incluído suporte para o idioma Russo |
+| 2.2.3 | - Possibilidade de alterar o tempo de fixação para digitar uma letra <br> - Correção de bugs |
+| 2.2.4 | - Incluído suporte para o idioma Holandês |
+| 2.3.0 | - Recurso de autocompletar as palavras agora aceita palavras escritas erradas <br> - Correção de pequenos bugs |
+| 2.3.1 | - Incluído suporte para o idioma Grego <br> - Várias alterações nos teclados específicos de cada idioma |
+| 2.3.2 | - Incluído suporte para o idioma Turco <br> - Correção de pequenos bug |
+| 2.3.3 | - Incluído suporte para o idioma Espanhol |
+| 2.3.4 | - Incluído suporte para o idioma Croata |
+| 2.3.5 | - Incluído suporte para o idioma Italiano |
+| 2.3.6 | - Incluído suporte para os idiomas Dinamarquês e Esloveno<br> - Suporte ao myGaze Eye Tracker |
 
 ## Arquitetura
 
