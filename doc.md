@@ -299,7 +299,37 @@ namespace JuliusSweetland.OptiKey.Services
 
 _Trecho de código com utilização da biblioteca log4net_
 
-## Principais padrões de projeto
+
+### Rx.NET
+
+O OptiKey é um software que lida com uma quantidade grande de eventos simultaneamente. Sejam eventos do usuário, eventos de outras
+aplicações (como os Eye Trackers), eventos gerados dentro do próprio software (como os de interface gráfica), sempre existem eventos sendo esperado para que 
+alguma ação seja tomada em seguida. Pensando nesse tipo de problema, surgiu uma nomenclatura para designar uma forma diferente de se pensar 
+a escrita de um programa denominada programação reativa. Basicamente falando a programação reativa é uma forma de programar pensando em fluxos de dados
+assíncronos. Falaremos mais sobre programação reativa posteriormente neste documento.
+
+Para implementar mais facilmente a programação reativa no projeto, o OptiKey utiliza a biblioteca externa Rx.NET. Esta biblioteca faz parte de um repositório
+de bibliotecas de programação reativa existente para a maioria das linguagens mais populares, o http://reactivex.io/.
+
+Segue um exemplo de como o código de programação reativa é utilizado no projeto para tratar toques (virtuais) no teclado do OptiKey:
+
+```C#
+private void AddSimulateKeyStrokesChangeHandler()
+{
+	this.OnPropertyChanges(t => t.SimulateKeyStrokes).Subscribe(_ => ReactToSimulateKeyStrokesChanges(true));
+	ReactToSimulateKeyStrokesChanges(false);
+}
+
+private void ReactToSimulateKeyStrokesChanges(bool saveCurrentState)
+{
+	// (...)
+}
+```
+
+O método da Rx.NET neste trecho transcrito do repositório é o `Subscribe`. Ele atribui um evento à um callback que será executado quando o evento for acionado.
+É uma excelente forma de se implementar Observers (no fundo, programação reativa é isso). Vamos falar mais sobre essa relação na sessão de padrões de projetos.
+
+## Principais padrões de projeto (e outros conceitos)
 
 O OptiKey se aproveita bastante de alguns padrões de projeto e, por isso, vamos aqui explicar os principais que ele utiliza.
 
@@ -330,6 +360,8 @@ A biblioteca WPF (Windows Presentation Foundation), já descrita nas sessões an
 A WPF fornece diversos modos de Data Binding. Com o one-way data binding, os controles de interface de usuários podem ser atualizados ao serem conectados com uma classe de ViewModel de forma que a interface reflita os valores de dados específicos quando estes mudarem (e a visualização for renderizada). O two-way data binding (vinculação de dados de duas vias), fará com que as classes de ViewModels sejam atualizadas de acordo com modificações na interface do usuário. Talvez a interação mais simples de ser visualizada seja essa entre Views e suas ViewModels (o que não significa que não ocorra em outros contextos).
 
 Todas essas formas de vincular os dados às ações é implementado utilizando-se Observers. Na linguagem C#, as implementações de observers se concentram na interface `INotifyPropertyChanged` e mais informações podem ser vistas aqui: https://msdn.microsoft.com/en-us/library/ms752914.aspx
+
+### Programação reativa
 
 ## Módulos do sistema
 
@@ -381,3 +413,8 @@ A aplicaçao em si é simples, desenvolvida majoritariamente por um único desen
 O usuário que não possui um dispositivo de eye-tracking pode utilizar um mouse. O programa oferece suporte a diversos eye-trackers, em sua maioria de baixo custo, e utiliza bibliotecas dos fabricantes para fazer a integração com o software.
 
 Por se tratar de uma aplicação simples e que utiliza uma diversidade relativamente pequena de tecnologias o tempo de pesquisa sobre o projeto foi destinado, principalmente,  à exploração do código fonte e da arquitetura desenvolvida.
+
+
+## Referências
+- http://reactivex.io/
+- https://github.com/Reactive-Extensions/Rx.NET
