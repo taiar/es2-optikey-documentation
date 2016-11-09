@@ -2,38 +2,21 @@
 
 pode ser encontrado em http://www.optikey.org
 
-- [OptiKey - Full computer control and speech with your eyes](#optikey-full-computer-control-and-speech-with-your-eyes)
-	- [Descrição](#descrição)
-	- [Principais Features](#principais-features)
-		- [Compatibilidade](#compatibilidade)
-			- [Idiomas](#idiomas)
-			- [Dispositivos compatíveis](#dispositivos-compatíveis)
-	- [Linguagem de programação](#linguagem-de-programação)
-	- [Principais desenvolvedores](#principais-desenvolvedores)
-	- [Evolução do sistema](#evolução-do-sistema)
-	- [Arquitetura](#arquitetura)
-		- [Bibliotecas externas](#bibliotecas-externas)
-	- [Contribuições](#contribuições)
-	- [Principais padrões de projeto](#principais-padrões-de-projeto)
-		- [MVVM](#mvvm)
-		- [Observers e Data Binding](#observers-e-data-binding)
-	- [Módulos do sistema](#módulos-do-sistema)
-		- [Os pacotes disponíveis no repositório do sistema](#os-pacotes-disponíveis-no-repositório-do-sistema)
-		- [Dependência entre módulos](#dependência-entre-módulos)
-		- [Descrição dos módulos e sua divisão em diretórios](#descrição-dos-módulos-e-sua-divisão-em-diretórios)
-	- [Conclusão](#conclusão)
-
 ##  Descrição
 
-O sistema OptiKey é um teclado virtual assistivo. Ele foi projetado para ser
-utilizado com um dispositivo de rastreamento ocular de baixo custo, com o
-intuito de trazer o controle do teclado, controle do mouse e fala para pessoas
-com limitações motoras e de fala, como por exemplo pessoas que vivem com Doença
-do Neurônio Motor (DNM) e ELA (Esclerose Lateral Amiotrófica).
+O sistema OptiKey é um software que implementa um teclado virtual assistivo.
+Foi projetado para ser utilizado com um dispositivo de rastreamento ocular de
+baixo custo, com o intuito de trazer o controle do teclado, controle do mouse e
+fala para pessoas com limitações motoras e de fala, como por exemplo pessoas que
+vivem com Doença do Neurônio Motor (DNM) e ELA (Esclerose Lateral Amiotrófica).
+
+O projeto foi completamente desenvolvido, desde o seu início, usando a linguagem
+de programação C# da Microsoft juntamente com seu framework, o .Net (na versão
+4.6).
 
 ![Tela mostrando o teclado virtual](images/image00.png)
 
-Tela mostrando o teclado virtual
+_Tela mostrando o teclado virtual_
 
 O OptiKey foi desenvolvido com o objetivo de ser uma alternativa mais barata em
 relação aos produtos extremamente caros, difíceis de usar e pouco confiáveis
@@ -42,7 +25,7 @@ o sistema é de código aberto, livre e gratuito.
 
 ![Funcionamento utilizando o Rastreamento ocular](images/image02.png)
 
-Funcionamento utilizando o Rastreamento ocular
+_Funcionamento utilizando o Rastreamento ocular_
 
 O sistema vem sendo conhecido no mundo e sendo indicado por instituições que trabalham com pessoas com deficiência, como Fundación de Neurociencias(Espanhol), ALS Worldwide(Inglês), kommhelp(Alemão), entre outras.
 
@@ -61,23 +44,24 @@ recursos de autocompletar palavras assim como nos aparelhos celulares atuais.
 
 ![Utilização do OptiKey num editor de texto](images/image11.png)
 
-Utilização do OptiKey num editor de texto
+_Utilização do OptiKey num editor de texto_
 
-Além das teclas do alfabeto comum, existem outras funcionalidades como um
-teclado para letras com acento, símbolos de várias moedas, números e símbolos
-matemáticos. Para cada idioma, o teclado virtual tem seu leiaute conforme a
-padronização.
+Além das teclas já existentes em um teclado comum, o OptiKey vem acompanhado de
+teclas que proporcionam outras funcionalidades: um teclado para letras com
+acento, símbolos de várias moedas, números e símbolos matemáticos. Para cada
+idioma suportado o teclado virtual adapta automaticamente o seu leiaute conforme
+a padronização.
 
 ![Funcionalidades e menu do teclado](images/image03.png)
 
-Funcionalidades e menu do teclado
+_Funcionalidades e menu do teclado_
 
 OptiKey pode ser utilizado para substituir o mouse, permitindo clicar, rolar e
 arrastar com precisão em qualquer lugar na tela.
 
 ![Utilização do OptiKey como um mouse](images/image06.png)
 
-Utilização do OptiKey como um mouse
+_Utilização do OptiKey como um mouse_
 
 ### Compatibilidade
 
@@ -133,12 +117,6 @@ possibilidade de incluir suporte para esses dispositivos. Além disso, é possí
 utilizar o mouse para usar o sistema, ou caso possua uma webcam, a mesma pode
 ser configurada para utilizar também.
 
-## Linguagem de programação
-
-A linguagem de programação utilizada para o desenvolvimento do sistema foi C#, e
-ainda para várias partes de configuração do sistema foi utilizada a linguagem
-específica de domínio XAML.
-
 ## Principais desenvolvedores
 
 O sistema foi desenvolvido principalmente por Julius Sweetland. Do
@@ -169,6 +147,19 @@ Nome|Usuário|Principais contribuições|Commits
 |Vedran Đerek|vdjerek|Inclusão do suporte ao idioma Croata|4
 |Dustin Gadal|Gadal|Inclusão do dicionário Francês|2
 
+## Contribuições
+
+A maior parte da aplicação foi desenvolvida por Julius Sweetland que é o idealizador e principal desenvolvedor. Houveram poucas contribuições por parte de outros programadores, como pode ser observado na imagem de registros de commits do Github.
+
+![Ranking de contribuições dos desenvolvedores do OptiKey](images/image01.png)
+
+_Ranking de contribuições dos desenvolvedores do OptiKey_
+
+Já a inclusão de novos idiomas, é feita com grande ajuda de usuários de diferentes partes do mundo. Para cada idioma que vai ser incluído, o desenvolvedor cria um novo tópico pedindo ajuda de colaboradores para verificação de particularidades de cada língua e também do dicionário utilizado como referência.
+
+![Contribuições em progresso de usuários](images/image09.png)
+
+_Contribuições em progresso de usuários_
 
 ## Evolução do sistema
 
@@ -195,41 +186,95 @@ Seguem abaixo os principais releases e algumas novidades de cada versão.
 
 ## Arquitetura
 
-O processo da arquitetura de software objetiva conceber uma visão da organização fundamental do sistema, os seus módulos principais e o relacionamento entre eles e o ambiente. A análise da arquitetura permite relacionar as características do sistema com o os objetivos do cliente.
-
 ![Visão do contexto](images/image10.png)
 
-Visão do contexto
+_Visão do contexto_
 
-O OptiKey foi desenvolvido em C# na IDE Visual Studio da Microsoft e  maior parte das bibliotecas utilizadas são nativas do C#. Para rodar a aplicação é necessário utilizar um PC ou tablet que possua o .NET 4.6 framework ou superior, o qual está disponível nativamente a partir do Windows Vista.
+O OptiKey foi inteiramente desenvolvido na linguagem C#, utilizando a IDE Visual
+Studio e o framework .Net (todos da Microsoft). A maior parte das bibliotecas
+utilizadas são nativas do C#. O foco do produto é funcionar muito bem na
+plataforma Windows (que é o sistema que tem mais suporte por dispositivos
+assistivos do mercado atualmente). Por isso, utilizar uma plataforma nativa
+ajuda a evitar problemas e ter maior compatibilidade nesse ambiente.  Para rodar
+a aplicação é necessário utilizar um PC ou tablet que possua o .NET 4.6
+framework ou superior, o qual está disponível nativamente a partir do Windows
+Vista.
 
-O .NET framework é uma tecnologia que dá suporte à compilação e à execução de aplicativos e serviços Web. Consiste no Common Language Runtime e na biblioteca de classes .NET Framework. Existe uma gama de bibliotecas disponíveis para manipulação de janelas e dos dos dispositivos de entrada e saída como mouse e teclado que foram utilizadas no desenvolvimento da aplicação.
+O .Net framework é um arcabouço de software com diversas bibliotecas que dão
+suporte ao desenvolvimento, compilação e execução de aplicativos e serviços para
+ambientes web e desktop. Ele é composto de um Common Language Runtime e de
+bibliotecas de classes do .NET Framework. Existe uma vasta gama de bibliotecas
+para todas as finalidades que se possa necessitar no desenvolvimento de
+softwares (o .Net é um framework bastante completo). No OptiKey forasm usados,
+por exemplo, bibliotecas para manipulação de janelas e para dispositivos de
+entrada e saída como mouse e teclado.
+
+Quando alguma funcionalidade necessária para o projeto não pode ser encontrada
+nativamente no .Net framework, este permite que suas funcionalidades sejam
+expandidas através da instalação e utilização de bibliotecas externas. A
+Microsoft mantém um repositório vasto de bibliotecas chamado Nuget. Quando as
+bibliotecas externas do Nuget são referenciadas em um projeto, ao fazer a build
+desse projeto, a ferramenta baixa automaticamente as bibliotecas na versão
+referenciada, instala e compila juntamente com a compilação do projeto. Tudo
+isso é bastante integrado à IDE Visual Studio que dá um suporte muito amplo ao
+desenvolvimento e gerenciamento de projetos em .Net. Veja abaixo uma organização
+destes componentes citados:
 
 ![Ambiente de desenvolvimento](images/image04.png)
 
-Ambiente de desenvolvimento
+_Ambiente de desenvolvimento_
 
-O Windows Presentation Foundation (WPF) é uma estrutura que promove uma interface gráfica para criação de aplicativos desktop. A plataforma de desenvolvimento do WPF oferece suporte a um amplo conjunto de recursos de desenvolvimento de aplicativos, incluindo modelos, recursos, controles, elementos gráficos, layout, associação de dados, documentos e segurança. É um subconjunto do .NET Framework. O WPF usa o XAML (Extensible Application Markup Language) para fornecer um modelo declarativo para o desenvolvimento da aplicação.
+O Windows Presentation Foundation (WPF) é um subsistema dentro do .Net framework
+que permite o desenvolvimento de interface gráfica em aplicações desktop. Ele é
+uma tecnologia relativamente nova para aplicações da Microsoft e vem aos poucos
+tentando substituir a antiga plataforma de desenvolvimento de aplicações desktop
+gráficas da Microsoft, o Windows Forms.
+
+O WPF usa o XAML (Extensible Application Markup Language), uma linguagem de
+marcação também criada pela Microsoft, para fornecer um modelo declarativo e
+portável para o desenvolvimento das interfaces. Ao mesmo tempo, Visual Studio
+fornece ferramentas que geram os arquivos XAML de interfaces desenhadas através
+de controles visuais, facilitando ainda mais a construção de programas com
+interface gráfica nesse ambiente.
 
 ### Bibliotecas externas
 
-O OptiKey suporta alguns EyeTrackers e para isso utiliza bibliotecas específicas. Essas bibliotecas possibilitam a integração dos EyeTrackers com a aplicação.
+#### Eye trackers
+
+Eye trackers são softwares que, através de um dispositivo de captura de imagens
+(por exemplo, uma câmera) filmando o rosto de um usuário, conseguem rastrear o
+que o usuário está visualmente focando na imagem mostrada na tela. Existem
+muitas soluções como descrito disponíveis no mercado. O OptiKey provê suporte
+nativo a alguns desses Eye Trackers e, para isso utiliza as bibliotecas
+específicas de cada fabricante em seu código afim de implementar essa
+integração com a aplicação.
 
 ![Bibliotecas utilizadas para suporte aos eye trackers](images/image08.png)
 
-Bibliotecas utilizadas para suporte aos eye trackers
+_Bibliotecas utilizadas para suporte aos Eye Trackers_
 
-Outra biblioteca utilizada na aplicação é a log4net da Apache, compatível com o .NET Framework, que permite a declaração de registros de logs em diversos destinos de saída.
+#### Logging
+
+O OptiKey utiliza logging para rastreamento de ações e detecção de erros na
+aplicação. Aparentemente pode ser uma coisa complexa o debug de sistemas que
+capturam dados de dispositivos externos e esta foi uma das maneiras adotadas
+para conseguirem descobrir o que está acontecendo durante a execução do
+programa.
+
+Para trabalhar com logs o OptiKey utiliza a biblioteca log4net da Apache
+Software Foundation. Ela é parte de uma coleção de bibliotecas de logging para
+diversas plataformas (Java, PHP, C++ e outras), sendo a versão portada para
+funcionar em ambiente .Net.
+
+Existe código de logging espalhado por toda a aplicação, permitindo a declaração
+destes registros em diversos destinos de saída. Segue um exemplo de como é
+utilizada (de forma bem simples) o log4net na aplicação:
 
 ```C#
 using System;
-using System.Reactive.Linq;
-using System.Reactive.Threading.Tasks;
 using System.Threading.Tasks;
-using System.Windows;
 using log4net;
-using TETControls.Calibration;
-using JuliusSweetland.OptiKey.Properties;
+// (...)
 
 namespace JuliusSweetland.OptiKey.Services
 {
@@ -241,26 +286,42 @@ namespace JuliusSweetland.OptiKey.Services
         {
             Log.Info("Attempting to calibrate using the TheEyeTribe calibration runner.");
 
-         (..)
+         // (...)
 ```
 
-Trecho de código com utilização da biblioteca log4net
+_Trecho de código com utilização da biblioteca log4net_
 
-## Contribuições
 
-A maior parte da aplicação foi desenvolvida por Julius Sweetland que é o idealizador e principal desenvolvedor. Houveram poucas contribuições por parte de outros programadores, como pode ser observado na imagem de registros de commits do Github.
+### Rx.NET
 
-![Ranking de contribuições dos desenvolvedores do OptiKey](images/image01.png)
+O OptiKey é um software que lida com uma quantidade grande de eventos simultaneamente. Sejam eventos do usuário, eventos de outras
+aplicações (como os Eye Trackers), eventos gerados dentro do próprio software (como os de interface gráfica), sempre existem eventos sendo esperado para que 
+alguma ação seja tomada em seguida. Pensando nesse tipo de problema, surgiu uma nomenclatura para designar uma forma diferente de se pensar 
+a escrita de um programa denominada programação reativa. Basicamente falando a programação reativa é uma forma de programar pensando em fluxos de dados
+assíncronos. Falaremos mais sobre programação reativa posteriormente neste documento.
 
-Ranking de contribuições dos desenvolvedores do OptiKey
+Para implementar mais facilmente a programação reativa no projeto, o OptiKey utiliza a biblioteca externa Rx.NET. Esta biblioteca faz parte de um repositório
+de bibliotecas de programação reativa existente para a maioria das linguagens mais populares, o http://reactivex.io/.
 
-Já a inclusão de novos idiomas, é feita com grande ajuda de usuários de diferentes partes do mundo. Para cada idioma que vai ser incluído, o desenvolvedor cria um novo tópico pedindo ajuda de colaboradores para verificação de particularidades de cada língua e também do dicionário utilizado como referência.
+Segue um exemplo de como o código de programação reativa é utilizado no projeto para tratar toques (virtuais) no teclado do OptiKey:
 
-![Contribuições em progresso de usuários](images/image09.png)
+```C#
+private void AddSimulateKeyStrokesChangeHandler()
+{
+	this.OnPropertyChanges(t => t.SimulateKeyStrokes).Subscribe(_ => ReactToSimulateKeyStrokesChanges(true));
+	ReactToSimulateKeyStrokesChanges(false);
+}
 
-Contribuições em progresso de usuários
+private void ReactToSimulateKeyStrokesChanges(bool saveCurrentState)
+{
+	// (...)
+}
+```
 
-## Principais padrões de projeto
+O método da Rx.NET neste trecho transcrito do repositório é o `Subscribe`. Ele atribui um evento à um callback que será executado quando o evento for acionado.
+É uma excelente forma de se implementar Observers (no fundo, programação reativa é isso). Vamos falar mais sobre essa relação na sessão de padrões de projetos.
+
+## Principais padrões de projeto (e outros conceitos)
 
 O OptiKey se aproveita bastante de alguns padrões de projeto e, por isso, vamos aqui explicar os principais que ele utiliza.
 
@@ -280,7 +341,7 @@ Esta biblioteca tem funcionalidades que ajudam a implementar o padrão em aplica
 
 ![Esquema de funcionamento do MVVM](images/image05.png)
 
-Esquema de funcionamento do MVVM
+_Esquema de funcionamento do MVVM_
 
 ### Observers e Data Binding
 
@@ -291,6 +352,30 @@ A biblioteca WPF (Windows Presentation Foundation), já descrita nas sessões an
 A WPF fornece diversos modos de Data Binding. Com o one-way data binding, os controles de interface de usuários podem ser atualizados ao serem conectados com uma classe de ViewModel de forma que a interface reflita os valores de dados específicos quando estes mudarem (e a visualização for renderizada). O two-way data binding (vinculação de dados de duas vias), fará com que as classes de ViewModels sejam atualizadas de acordo com modificações na interface do usuário. Talvez a interação mais simples de ser visualizada seja essa entre Views e suas ViewModels (o que não significa que não ocorra em outros contextos).
 
 Todas essas formas de vincular os dados às ações é implementado utilizando-se Observers. Na linguagem C#, as implementações de observers se concentram na interface `INotifyPropertyChanged` e mais informações podem ser vistas aqui: https://msdn.microsoft.com/en-us/library/ms752914.aspx
+
+### Programação reativa
+
+O "Manifesto Reativo" foi publicado em 16 de Setembro de 2014. Ele prega uma nova maneira na qual as organizações iriam se beneficiar bastante em questão
+de robustez, resiliência, flexibilidade e escalabilidade ao lidar com desenvolvimento de software. Vou transcrever alguns trechos deste manifesto pois são
+mais sintéticos e objetivos que qualquer outro:
+
+> Sistemas criados como Reativos são muito mais flexíveis, desacoplados e escaláveis. Isso os torna mais fáceis de desenvolver e manter. São mais tolerantes a falhas e quando elas ocorrem são tratadas com elegância ao invés de desastre. Sistemas Reativos são responsivos, dando aos usuários feedbacks mais interativos.
+>
+> Sistemas reativos são:
+>
+> Responsivo: O sistema responde em um tempo hábil se possível. ...
+>
+> Resiliente: O sistema continua respondendo em caso de falha. ...
+>
+> Elástico: O sistema continua responsivo mesmo sob variações de demanda. ...
+>
+> Orientado a Mensagens: Sistemas Reativos usam passagem de mensagens assíncronas para estabelecer fronteiras entre os componentes e garantir baixo acoplamento, isolamento, transparência na localização e provêem meios para delegar o tratamento de erros através de mensagens. ...
+>
+> Grandes sistemas são compostos por pequenos serviços e portanto, dependem das propriedades Reativas de cada um deles. Isso significa que Sistemas Reativos usam principios de projeto para que essas propriedades se apliquem em todos os níveis e escalas, tornando-os combináveis. Os maiores sistemas do mundo são arquitetados com base nessas propriedades e servem as necessidades de bilhões de pessoas diariamente. 
+
+![Princípios da programação reativa](images/image12.svg)
+
+_Princípios da programação reativa_
 
 ## Módulos do sistema
 
@@ -312,7 +397,7 @@ Este é um diagrama de dependência entre os **principais** módulos do sistema:
 
 ![Diagrama com os principais módulos do sistema](images/image07.png)
 
-Diagrama com os principais módulos do sistema
+_Diagrama com os principais módulos do sistema_
 
 ### Descrição dos módulos e sua divisão em diretórios
 
@@ -342,3 +427,9 @@ A aplicaçao em si é simples, desenvolvida majoritariamente por um único desen
 O usuário que não possui um dispositivo de eye-tracking pode utilizar um mouse. O programa oferece suporte a diversos eye-trackers, em sua maioria de baixo custo, e utiliza bibliotecas dos fabricantes para fazer a integração com o software.
 
 Por se tratar de uma aplicação simples e que utiliza uma diversidade relativamente pequena de tecnologias o tempo de pesquisa sobre o projeto foi destinado, principalmente,  à exploração do código fonte e da arquitetura desenvolvida.
+
+
+## Referências
+- http://reactivex.io/
+- https://github.com/Reactive-Extensions/Rx.NET
+- http://www.reactivemanifesto.org/pt-BR
