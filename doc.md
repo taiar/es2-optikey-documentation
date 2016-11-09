@@ -430,6 +430,25 @@ Por se tratar de uma aplicação simples e que utiliza uma diversidade relativam
 
 
 ## Referências
-- http://reactivex.io/
-- https://github.com/Reactive-Extensions/Rx.NET
-- http://www.reactivemanifesto.org/pt-BR
+
+OptiKey - https://github.com/OptiKey/OptiKey/wiki
+
+EyeTribe - http://dev.theeyetribe.com/csharp/
+
+log4net - https://logging.apache.org/log4net/
+
+TobiiEyeX - https://tobiigaming.com/developer/?v=19d3326f3137
+
+MyGaze - http://www.mygaze.com/ (http://www.mygaze.com/
+
+Microsoft MVVM - https://msdn.microsoft.com/en-us/library/gg405484(v=pandp.40).aspx
+
+Microsoft WPF - https://msdn.microsoft.com/en-us/library/ms752914.aspx
+
+Prism - https://msdn.microsoft.com/en-us/library/ff648465.aspx
+
+Rx.Net - http://reactivex.io/
+
+Rx.Net - https://github.com/Reactive-Extensions/Rx.NET
+
+Manifesto Reativo - http://www.reactivemanifesto.org/pt-BR
