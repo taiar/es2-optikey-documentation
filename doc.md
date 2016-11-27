@@ -373,7 +373,7 @@ mais sintéticos e objetivos que qualquer outro:
 >
 > Grandes sistemas são compostos por pequenos serviços e portanto, dependem das propriedades Reativas de cada um deles. Isso significa que Sistemas Reativos usam principios de projeto para que essas propriedades se apliquem em todos os níveis e escalas, tornando-os combináveis. Os maiores sistemas do mundo são arquitetados com base nessas propriedades e servem as necessidades de bilhões de pessoas diariamente. 
 
-![Princípios da programação reativa](images/image12.svg)
+![Princípios da programação reativa](https://cdn.rawgit.com/taiar/es2-optikey-documentation/master/images/image12.svg)
 
 _Princípios da programação reativa_
 
